@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DE SKINS WEBSITE</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- file Css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo"><span>DE</span> SKIN</a>
+<UL class="Links">
+    <u1 class="links">
+        <li class="active"><a href="#">طريقه التركيب</a></li>
+        <li><a href="#">الاسكنات</a></li>
+        <li><a href="#">سيرفر الدعم الفني</a></li>
+        <li><a href="#">محتوي الاسكنات</a></li>
+        <li><a href="#">نسخه 32 بت ببجي موبايل</a></li>
+    </u1>
+</UL>
+    <div class="social-links">
+        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        <a href="#"><i class="fa-brands fa-discord"></i></a>
+        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+    </div><i id="btnMunu" class="fa-solid fa-bars"></i>
+    
+        </nav>
+    </header>
+    <div class="hero-sec">
+        <div class="contanier">
+            <div class="div-text">
+                <h1>DE SKINS</h1>
+                <SPan>PUBG Mobile</SPan>
+                <p>Welcome To Our WEBSITE , Please if there any report send us in discord server.</p>
+                <a href="#" class="btn">My works</a>
+            </div>
+
+            
+
+            <div class="div-img">
+                <img src="images/hero.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    let btnMunu =document.getElementById("btnMunu");
+    let NavLinks =document.querySelector(".links");
+
+    btnMunu.onclick =function (){
+        btnMunu.classList.toggle("fa-times")
+        NavLinks.classList.toggle("active")
+    }
+</script>
