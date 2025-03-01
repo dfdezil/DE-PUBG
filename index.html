@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DE SKINS WEBSITE</title>
+    <script src="coding.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <!-- file Css -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    </style>    
+<!-- file Css -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,9 +30,30 @@
     </u1>
 </UL>
     <div class="social-links">
-        <a href="#"><i class="fa-brands fa-telegram"></i></a>
-        <a href="#"><i class="fa-brands fa-discord"></i></a>
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" onclick="openTelegram()">
+            <i class="fa-brands fa-telegram"></i>
+        </a>
+        <a href="#" onclick="openDiscord()">
+            <i class="fa-brands fa-discord"></i>
+        </a>
+        <a href="#" onclick="openWhatsApp()">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        
+        <script>
+            function openTelegram() {
+                window.open("https://t.me/DeSSkins", "_blank"); 
+            }
+        
+            function openDiscord() {
+                window.open("https://discord.gg/HRtYkverSm", "_blank");
+            }
+        
+            function openWhatsApp() {
+                window.open("https://whatsapp.com/channel/0029Vb2vpuK1iUxRJj2rlx0q", "_blank"); 
+            }
+        </script>
+        
     </div><i id="btnMunu" class="fa-solid fa-bars"></i>
     
         </nav>
@@ -38,7 +63,7 @@
             <div class="div-text">
                 <h1>DE SKINS</h1>
                 <SPan>PUBG Mobile</SPan>
-                <p>مرحبا بكم في صفحه DE SKINS لاسكنات</p>
+                <p>مرحبا بكم في صفحه DE SKINS</p>
                 <a href="#" class="btn">My works</a>
             </div>
 
